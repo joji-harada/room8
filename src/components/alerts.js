@@ -2,7 +2,7 @@ import React from 'react';
 
 const Alerts = ({messages}) => {
     const alertItems = messages.map((message) => (
-        <a href="github.com" className="list-item">{message}</a>
+        <p className="list-item">{message} - <a href="github.com">view details</a></p>
     ));
     return (
         <div>

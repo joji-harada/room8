@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className='container centered'>
         <Welcome name='bob'/>
-        <Alerts messages={['clean the fucking dishes', 'mow the damn lawn', 'pay your utility bill']}/>
+        <Alerts messages={['clean the dirty dishes', 'mow the overgrown lawn', 'pay your utility bill']}/>
       </div>
     </div>
   );
