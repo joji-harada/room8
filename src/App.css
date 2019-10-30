@@ -23,3 +23,9 @@
 .App-link {
   color: #09d3ac;
 }
+
+.App .centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
