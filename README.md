@@ -4,6 +4,11 @@
 
 - [ ] Impliment MERN stack
 - [ ] Solidify layouts/designs
+- [ ] Short term goals:
+  - Implement Database
+  - Login Functionality
+  - Chores
+  - Bills
 
 ### Contributors
 
