@@ -1,18 +1,21 @@
 import React from 'react';
+import '../style/components/alerts.sass';
 
-const Alerts = ({messages}) => {
-    const alertItems = messages.map((message) => (
-        <p className="list-item">{message} - <a href="github.com">view details</a></p>
-    ));
-    return (
-        <div>
-            
-            <div class="list is-hoverable">
-            <h2 className="alerts">ALERTS</h2>
-                {alertItems}
-            </div>
-        </div>
-    )
-}
+const Alerts = ({ messages }) => {
+  const alertItems = messages.map(message => (
+    <div class='panel-block has-background-white alert-item'>
+      <p>{message}</p>
+      <div>
+        <button className='button is-info'>Details</button>
+      </div>
+    </div>
+  ));
+  return (
+    <nav class='panel'>
+      <p class='panel-heading'>Alerts</p>
+      {alertItems}
+    </nav>
+  );
+};
 
 export default Alerts;
