@@ -1,6 +1,7 @@
 import React from 'react';
 import Welcome from './components/welcome';
 import Alerts from './components/alerts';
+import Feed from './components/feed';
 
 import './App.css';
 
@@ -16,6 +17,18 @@ function App() {
             'Pay your utility bill'
           ]}
         />
+        <Feed 
+          userName='Garrett Jackson'
+          news={[
+            'Mowed the lawn yesterday @ 10:46 A.M.',
+            'Announcement: Parents will be visiting this Saturday.'
+        ]}/>
+        <Feed 
+          userName='Josh Saul'
+          news={[
+            'No chores have been done this week.',
+            'Announcement: Debt collectors will arrive at 1:30 A.M.'
+        ]}/>
       </div>
     </div>
   );
